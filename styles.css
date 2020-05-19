@@ -1,0 +1,127 @@
+*{
+    outline: none;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.overlay {
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding: 30px;
+	background-color: transparent;
+	border-style: solid;
+	border-width: medium;
+	font-weight: bold;
+	color: white;
+	display: none;
+}
+.imagehover:hover {
+	opacity: 0.3;
+}
+
+nav{
+    outline: none;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    padding: 0 1rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 90vw;
+    height: 3rem;
+    box-shadow: 0 0 .8rem -.4rem blue ;
+    background-color: white;
+    border-radius: 0 0 .5rem .5rem;
+}
+
+.navbtn{
+    color: rgb(0, 45, 128);
+    text-decoration: none;
+    height: 2.4rem;
+    padding: 0.6rem 1rem;
+    border-radius: .3rem;
+    border: none;
+    transition: .4s ease;
+}
+.navbtn:hover{
+    transition: .4s ease;
+    box-shadow: 0 .1rem .6rem -.2rem blue;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: hidden;
+    background-color: black;
+    
+}
+.card {max-height: 80vh;
+    font-size: 1.2rem;
+    width: 25%;
+    min-width: 18rem;
+    max-width: 25rem;
+    border-radius: .6rem;
+    box-shadow: 0 .2rem .8rem -.2rem rgb(0, 110, 255);
+    margin: 1rem .8rem .6rem 0rem;
+    background-color: white;
+}
+.cardimage {
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
+    border-radius: .8rem .8rem 0 0;
+}
+.container {
+    padding: .5rem 1rem;
+  
+    font-family: sans-serif;
+
+}
+h1 {
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+}
+.cardhide{
+    max-height: 80vh;
+    font-size: 0rem;
+    width: 50%;
+    min-width: 20rem;
+    max-width: 55rem;
+    border-radius: 1rem;
+    min-height: 2rem;
+    margin: 4rem;
+    background-color: rgba(255, 255, 255, 0);
+}
+@media (orientation:portrait){
+    body{
+        padding-top: 125rem;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+    }
+    .cardhide{
+        min-height: 0vh;
+        height: 0;
+    }
+    .navbtn{
+        
+        width: 30vw;
+        min-width: 20vw;
+        padding: .5rem;
+        max-width: 30vw;
+    }
+    .title{
+        display:none;
+    }
+}
