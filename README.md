@@ -16,7 +16,7 @@ The Project uses the JQuery javascript library and Google Fonts;
 The project runs online so requires hosting or if being run offline it requires an internet connection to use the online google fonts. JQuery library is already bundled within the project files.
 
 ## CONTACT INFORMATION
-TEL:+254 722 675 630
+TEL:
 ## LICENSE AND COPYRIGHT INFORMATION.
 Copyright <2020> <>
 
