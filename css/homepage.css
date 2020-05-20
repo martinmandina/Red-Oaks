@@ -31,3 +31,7 @@ span.line2 {
 	display:block;
 	background-color:#fff;
 }
+.about{
+	text-align: center;
+	text-indent: hanging;
+}
