@@ -7,6 +7,7 @@
 	-o-background-size:cover;
 	text-align: center;
 	height: 620px;
+	border-radius: 1%;
 }
 p{
 	background :transparent;
@@ -29,4 +30,4 @@ span.line2 {
 	height:1px;
 	display:block;
 	background-color:#fff;
-} 
+}
