@@ -19,9 +19,9 @@ h1{
 	color: yellow
 }
 .button{
-	padding-top: 40%;
-	padding-left:70%;
-}span.line1 {
+	padding-top: 20%;
+}
+span.line1 {
 	height:1px;
 	background-color:#fff;
 	display:block;
