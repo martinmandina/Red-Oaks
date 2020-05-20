@@ -36,4 +36,7 @@ span.line2 {
 	text-indent: hanging;
 	background-color: black;
 	color: white;
+	padding-top: 10%;
+	height: 620px;
+	border-radius: 1%;
 }
