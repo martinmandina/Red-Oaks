@@ -20,4 +20,13 @@ h1{
 .button{
 	padding-top: 40%;
 	padding-left:70%;
+}span.line1 {
+	height:1px;
+	background-color:#fff;
+	display:block;
 }
+span.line2 {
+	height:1px;
+	display:block;
+	background-color:#fff;
+} 
