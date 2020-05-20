@@ -5,7 +5,14 @@
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
-	padding-top: 150px;
+	padding-top: 100px;
 	text-align: center;
 	height: 500px;
+	
+}
+p{
+	background :transparent;
+}
+h1{
+	background :transparent;
 }
