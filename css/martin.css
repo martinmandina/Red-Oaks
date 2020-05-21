@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Marto";
+  src: url("../fonts/Marto.ttf");
+}
+#mybody {
+  background: #feffca;
+  font-family: Marto;
+  text-shadow: 1px 1px #c0c0c0;
+  margin : 0px;
+}
+#mylogo{
+  background-color: #003f30;
+}
+#mya{
+  text-decoration: none;
+  color : green;
+}
+#mya:hover{
+  text-decoration: none;
+  color: white;
+}
