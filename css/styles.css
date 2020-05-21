@@ -1,9 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-body{
-   font-family: 'Open Sans',serif;
-   margin:0px;  // white margin out
-
+@font-face {
+  font-family: "Marto";
+  src: url("../fonts/Marto.ttf");
+}
+body {
+  background: #000000;
+  font-family: Marto;
+  text-shadow: 1px 1px #c0c0c0;
 }
 #logo{
   background-color: #143214;
