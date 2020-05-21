@@ -15,7 +15,7 @@ header h1{
 }
 h2{
   text-align: center;
-  color:red;
+  color:White;
 }
 .welcome {
     grid-row-start: 1;
@@ -47,11 +47,28 @@ h2{
     padding-bottom: 20px;
 }
 
+.properties{
+  background-attachment:fixed;
+  background: url(../images/bg-properties.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 4%;
+  padding-bottom: 4%;
+
+}
+.properties-overlay{
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-bottom: 20px;
+  padding-left: 6%;
+}
 
 
 
 /********************* Properties **********************/
-.demo{padding:45px 0}
+/* .demo{padding:45px 0} */
 .product-grid2{font-family:'Open Sans',sans-serif;position:relative}
 .product-grid2 .product-image2{overflow:hidden;position:relative}
 .product-grid2 .product-image2 a{display:block}
@@ -76,10 +93,10 @@ h2{
 .product-grid2 .product-new-label{background-color:#3498db;color:#fff;font-size:17px;padding:5px 10px;position:absolute;right:0;top:0;transition:all .3s}
 .product-grid2:hover .product-new-label{opacity:0}
 .product-grid2 .product-content{padding:20px 10px;text-align:center}
-.product-grid2 .title{font-size:17px;margin:0 0 7px}
-.product-grid2 .title a{color:#303030}
+.product-grid2 .title{font-size:17px;margin:0 0 7px;}
+.product-grid2 .title a{color:white}
 .product-grid2 .title a:hover{color:#3498db}
-.product-grid2 .price{color:#303030;font-size:15px}
+.product-grid2 .price{color:white;font-size:15px}
 @media screen and (max-width:990px){.product-grid2{margin-bottom:30px}
 }
 /********************* End of Properties **********************/
