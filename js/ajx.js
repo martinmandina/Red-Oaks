@@ -20,7 +20,7 @@ if(window.XMLHttpRequest){
 */
 //Calls the library function 'ajx' - defined in 'ajx.js' file.
 function load(filename) {
-	ahah(filename,"content");
+	ahah(filename,"showpage");
 }
 function ahah(url, target) {
   document.getElementById(target).innerHTML = ' Fetching data...';
@@ -34,7 +34,7 @@ function ahah(url, target) {
     req.open("GET", url, true);
     req.send("");
   }
-}  
+}
 
 function ahahDone(url, target) {
   if (req.readyState == 4) { // only if req is "loaded"
