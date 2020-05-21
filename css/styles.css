@@ -6,7 +6,16 @@ body {
   background: #feffca;
   font-family: Marto;
   text-shadow: 1px 1px #c0c0c0;
+  margin : 0px;
 }
 #logo{
-  background-color: #143214;
+  background-color: #245b24;
+}
+a{
+  text-decoration: none;
+  color : green;
+}
+a:hover{
+  text-decoration: none;
+  color: white;
 }
