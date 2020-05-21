@@ -42,3 +42,15 @@ span.line2 {
 	margin-right: 10%;
 	margin-left: 10%
 }
+.menu{
+	text-align: center;
+	text-indent: hanging;
+	height: 400px;
+	background-color: black;
+	color: white;
+	margin-top: 20%;
+	margin-right: 20%;
+	margin-left: 20%;
+	padding-top: 15%;
+	border-radius: 20%
+}
