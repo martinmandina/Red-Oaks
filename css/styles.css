@@ -1,6 +1,34 @@
+<<<<<<< HEAD
 /********************* Properties **********************/
 .demo{padding:45px 0}
 .product-grid2{font-family:'Open Sans',sans-serif;position:relative}
+=======
+@font-face {
+  font-family: "Marto";
+  src: url("../fonts/Marto.ttf");
+}
+#mybody {
+  background: #feffca;
+  font-family: Marto;
+  text-shadow: 1px 1px #c0c0c0;
+  margin : 0px;
+}
+#mylogo{
+  background-color: #003f30;
+}
+#mya{
+  text-decoration: none;
+  color : green;
+}
+#mya:hover{
+  text-decoration: none;
+  color: white;
+}
+
+/********************* Properties **********************/
+.demo{padding:45px 0}
+/*.product-grid2{font-family:'Open Sans',sans-serif;position:relative}*/
+>>>>>>> ft-designs
 .product-grid2 .product-image2{overflow:hidden;position:relative}
 .product-grid2 .product-image2 a{display:block}
 .product-grid2 .product-image2 img{width:100%;height:auto}
