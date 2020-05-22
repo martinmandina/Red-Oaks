@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 /********************* Properties **********************/
 .demo{padding:45px 0}
 .product-grid2{font-family:'Open Sans',sans-serif;position:relative}
-=======
+
 @font-face {
   font-family: "Marto";
   src: url("../fonts/Marto.ttf");
@@ -28,7 +28,7 @@
 /********************* Properties **********************/
 .demo{padding:45px 0}
 /*.product-grid2{font-family:'Open Sans',sans-serif;position:relative}*/
->>>>>>> ft-designs
+
 .product-grid2 .product-image2{overflow:hidden;position:relative}
 .product-grid2 .product-image2 a{display:block}
 .product-grid2 .product-image2 img{width:100%;height:auto}
